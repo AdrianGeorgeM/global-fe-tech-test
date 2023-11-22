@@ -1,0 +1,48 @@
+.audioPlayer {
+	background: linear-gradient(135deg, #6d5bba, #8d58bf);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.stationLogo {
+	width: 80px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.stationName {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.controlButton {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	font-size: 24px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+	margin-right: 20px;
+}
+
+.controlButton:hover {
+	transform: scale(1.1);
+}
+
+.pauseButton {
+	background-color: #ff6b6b;
+}
+
+.volumeSlider {
+	width: 100%;
+}

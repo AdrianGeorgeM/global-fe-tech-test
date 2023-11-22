@@ -1,0 +1,17 @@
+/* src/App.module.css */
+.app {
+	text-align: center;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.app h1 {
+	color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+	.app {
+		padding: 10px;
+	}
+}

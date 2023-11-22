@@ -1,0 +1,52 @@
+.stationList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	justify-content: center;
+}
+
+.stationItem {
+	background: #f8f8f8;
+	border: 1px solid #e7e7e7;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.stationItem:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stationItem h2 {
+	margin: 0 0 10px 0;
+	color: #333;
+	font-size: 1.2rem;
+}
+
+.stationItem audio {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.error {
+	color: #ff6b6b;
+	font-size: 1.1rem;
+}
+
+.searchBar {
+	padding: 8px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: calc(100% - 16px);
+}
+
+@media (max-width: 600px) {
+	.stationList {
+		grid-template-columns: 1fr;
+		gap: 15px;
+	}
+}
