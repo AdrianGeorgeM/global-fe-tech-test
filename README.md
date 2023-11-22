@@ -31,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    ```
 2. Navigate to the project directory:
    ```bash
-   cd global-radio-stream-viewer
+   cd global-fe-tech-test
    ```
 3. Install dependencies:
    ```bash
